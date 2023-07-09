@@ -1,4 +1,4 @@
-import Circle from "../shapes/circle.js";
+import Circle from "../../shapes/circle.js";
 
 class CircleStrategy {
   createShape(...args) {
