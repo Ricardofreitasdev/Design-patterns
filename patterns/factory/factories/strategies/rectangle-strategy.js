@@ -1,4 +1,4 @@
-import Rectangle from "../shapes/retangle.js";
+import Rectangle from "../../shapes/retangle.js";
 
 class RectangleStrategy {
   createShape(...args) {

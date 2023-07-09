@@ -1,4 +1,4 @@
-import Triangle from "../shapes/triangle.js";
+import Triangle from "../../shapes/triangle.js";
 
 class TriangleStrategy {
   createShape(...args) {
