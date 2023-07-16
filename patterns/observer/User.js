@@ -1,6 +1,6 @@
 import NotificationService from "./Notification";
 
-class User {
+export default class User {
   /**
    * Cria uma nova instância da classe User.
    * @param {string} name
@@ -28,5 +28,3 @@ class User {
     NotificationService.unsubscribe(this.receiveNotification);
   }
 }
-
-export default User;
