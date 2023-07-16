@@ -1,4 +1,4 @@
-class Observable {
+export default class Observable {
   /**
    * Cria uma nova instância da classe Observable
    */
@@ -33,5 +33,3 @@ class Observable {
     this.observers.forEach((observer) => observer(data));
   }
 }
-
-export default Observable;
